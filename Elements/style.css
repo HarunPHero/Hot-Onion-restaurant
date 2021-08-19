@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 200px;
+}
+.navbar-nav{
+    margin-left: 70%;
+
+}
+.first-class{
+    background-image: url(bannerbackground.png);
+    background-size: cover;
+    height: 500px;
+
+}
+/* #Breakfast{
+    display: none;
+} */
+#Lunch{
+    display: none;
+}
+#Dinner{
+    display: none;
+}
+
+
+#Breakfast>article>div{
+    margin: 3%;
+
+}
+#Breakfast>article>.c:hover{
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 10px;
+    
+}
+
+#Lunch>article>div{
+    margin: 3%;
+}
+#Lunch>article>.c:hover{
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 10px;
+    
+}
+
+#Dinner>article>div{
+    margin: 3%;
+}
+#Dinner>article>.c:hover{
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 10px;
+    
+}
+.col:hover{
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 10px;
+    
+}
+ .button2{
+     background-color: tomato;
+     border-radius: 10px;
+ }
+ .button{
+    background-color: tomato;
+    border-radius: 20px;
+}
+#sign{
+    display: none;
+}
+#extra{
+    display: none;
+}
+#extra2{
+    display: none;
+}
+#extra3{
+    display: none;
+}
+#see-less{
+    display: none;
+}
+#see-less2{
+    display: none;
+}
+#see-less3{
+    display: none;
+}
