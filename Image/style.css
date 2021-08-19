@@ -1,12 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+*::selection{
+    color: rgb(14, 83, 7);
+    background-color: tomato;
+    
 }
 .logo{
     width: 200px;
 }
 .navbar-nav{
     margin-left: 70%;
+}
+
+.navbar-nav2{
+    margin-left: 27%;
 
 }
 .first-class{
@@ -15,16 +25,6 @@
     height: 500px;
 
 }
-/* #Breakfast{
-    display: none;
-} */
-#Lunch{
-    display: none;
-}
-#Dinner{
-    display: none;
-}
-
 
 #Breakfast>article>div{
     margin: 3%;
@@ -64,26 +64,31 @@
  }
  .button{
     background-color: tomato;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-#sign{
+#Lunch,#Dinner, #sign, #extra,#extra2, #extra3, #see-less, #see-less2, #see-less3{
     display: none;
 }
-#extra{
+
+#sign2{
     display: none;
+    background-image:url(bannerbackground.png);
+    background-size: cover;
 }
-#extra2{
-    display: none;
+.login{
+    margin-top: 10%;
 }
-#extra3{
-    display: none;
+.del{
+    background-image: url(burrito-chicken-close-up-461198-min.png);
+    background-size: cover;
 }
-#see-less{
-    display: none;
+footer>section>div>a{
+    text-decoration: none;
+    color: white;
 }
-#see-less2{
-    display: none;
-}
-#see-less3{
-    display: none;
-}
+small{
+    color: gray;
+    
+    padding-top: 8%;
+    padding-bottom: 5%;
+  }

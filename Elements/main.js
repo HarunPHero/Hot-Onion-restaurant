@@ -1,4 +1,4 @@
-
+// alert('🤵🤵WeLcOmE To HOR (HoT OnIon ReStAuRaNt🤵🤵');
 //just element style.......
 document.getElementById('first').style.textAlign = "center";
 document.getElementById('first').style.paddingTop = "150px"
@@ -93,17 +93,17 @@ const Signup = document.getElementById('sign-up').addEventListener('click', func
 
 })
 //search meal
-const searchMeal = document.getElementById('search-meal').addEventListener('click', function () {
-    const firstInpt = document.getElementById('first-input').value;
-    if(firstInpt == "Breakfast"){
-        document.getElementById('Lunch').style.display = "block";
-        document.getElementById('main').style.display = "none"
+// const searchMeal = document.getElementById('search-meal').addEventListener('click', function () {
+//     const firstInpt = document.getElementById('first-input').value;
+//     if(firstInpt == "Breakfast"){
+//         document.getElementById('Lunch').style.display = "block";
+//         document.getElementById('main').style.display = "none"
         
         
-    }
+//     }
     
 
-})
+// })
 
 
 
