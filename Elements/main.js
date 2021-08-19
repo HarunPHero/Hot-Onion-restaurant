@@ -1,4 +1,4 @@
-// alert('🤵🤵WeLcOmE To HOR (HoT OnIon ReStAuRaNt🤵🤵');
+alert('🤵🤵WeLcOmE To HOR (HoT OnIon ReStAuRaNt🤵🤵');
 //just element style.......
 document.getElementById('first').style.textAlign = "center";
 document.getElementById('first').style.paddingTop = "150px"
