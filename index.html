@@ -15,7 +15,7 @@
 <body>
   <main id="main">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light container">
+      <nav class="navbar navbar-expand-lg navbar-light container fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="logo" src="logo2.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -25,9 +25,11 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
 
-              <a class="nav-link" href="#"><img style="width: 30px;"src="cart.png" alt=""></a>
-              <a class="nav-link " href="#">Login</a>
-              <button class="btn button" id="sign-up">Sign up</button></a>
+              <a id="cart"class="nav-link" href="#"><img style="width: 30px;"src="cart.png" alt=""></a>
+              <a id="login"class="nav-link " href="#">Login</a>
+              <button class="btn button" id="sign-up">Sign up</button>
+              <button id="dark-mode"class="btn btn-dark ">dark mode</button>
+              <button id="light-mode"class="btn btn-light ">Light mode</button>
             </div>
           </div>
         </div>
@@ -341,9 +343,9 @@
         <a href="">View all cities</a><br>
         <a href="">Restaurants near me</a><br>
     </section>
-    <nav class="navbar navbar-expand-lg navbar-dark container">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><small>Copyrights 2021, All rights reserves HOR official site</small></a>
+        <h4 class="navbar-brand" href="#"><small>Copyrights 2021, All rights reserves HOR official site</small></h4>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span><img class="w-25" src="logo - Copy.png" alt=""></span>
@@ -363,6 +365,10 @@
       
     </div>
   </footer>
+  <div class="loader-container">
+    <img src="https://i.pinimg.com/originals/92/69/13/92691384afc6eed3e660faf9e3ef1ed1.gif" alt="">
+</div>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

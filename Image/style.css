@@ -12,7 +12,7 @@
     width: 200px;
 }
 .navbar-nav{
-    margin-left: 70%;
+    margin-left: 57%;
 }
 
 .navbar-nav2{
@@ -66,7 +66,7 @@
     background-color: tomato;
     border-radius: 10px;
 }
-#Lunch,#Dinner, #sign, #extra,#extra2, #extra3, #see-less, #see-less2, #see-less3{
+#Lunch,#Dinner, #sign, #extra,#extra2, #extra3, #see-less, #see-less2, #see-less3, #light-mode{
     display: none;
 }
 
@@ -92,3 +92,24 @@ small{
     padding-top: 8%;
     padding-bottom: 5%;
   }
+  .loader-container{
+    position: fixed;
+    top:0; left:0;
+    height:100%; 
+    width:100%;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.loader-container img{
+    width:17rem;
+}
+
+.loader-container.fade-out{
+    top:-110%;
+    opacity:0;
+}

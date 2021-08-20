@@ -1,4 +1,4 @@
-alert('🤵🤵WeLcOmE To HOR (HoT OnIon ReStAuRaNt🤵🤵');
+// alert('🤵🤵WeLcOmE To HOR (HoT OnIon ReStAuRaNt🤵🤵');
 //just element style.......
 document.getElementById('first').style.textAlign = "center";
 document.getElementById('first').style.paddingTop = "150px"
@@ -104,6 +104,42 @@ const Signup = document.getElementById('sign-up').addEventListener('click', func
     
 
 // })
+//dark mode and white mood
+document.getElementById('dark-mode').addEventListener('click', function(){
+    document.body.style.backgroundColor = "black"
+    document.getElementById('meal').style.color = "white"
+    document.getElementById('click-break').style.color = "white"
+    document.getElementById('click-lun').style.color = "white"
+    document.getElementById('click-din').style.color = "white"
+    
+    
+    
+    document.getElementById('dark-mode').style.display = "none"
+    document.getElementById('light-mode').style.display = "block"
+    
+})
+document.getElementById('light-mode').addEventListener('click', function(){
+    document.body.style.backgroundColor = "white"
+    document.getElementById('meal').style.color = "black"
+    document.getElementById('click-break').style.color = "black"
+    document.getElementById('click-lun').style.color = "black"
+    document.getElementById('click-din').style.color = "black"
+    
+    document.getElementById('login').style.color = "black"
+    
+    document.getElementById('dark-mode').style.display = "block"
+    document.getElementById('light-mode').style.display = "none"
+    
+})
+function loader(){
+    document.querySelector('.loader-container').classList.add('fade-out');
+  }
+  
+  function fadeOut(){
+    setInterval(loader, 3000);
+  }
+  
+  window.onload = fadeOut;
 
 
 
